@@ -1,0 +1,234 @@
+<mxfile host="65bd71144e">
+    <diagram id="iXp9m8YjSSL0abKjWMni" name="Page-1">
+        <mxGraphModel dx="2086" dy="1468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="name" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;gradientColor=none;swimlaneFillColor=none;strokeColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="-320" y="-40" width="410" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="NSFW LAN gaming/Guest/phone/connection to mediaserver IOT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="2" vertex="1">
+                    <mxGeometry y="30" width="410" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Work devices" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="2" vertex="1">
+                    <mxGeometry y="60" width="410" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="server LAN; all admin pannel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="2" vertex="1">
+                    <mxGeometry y="90" width="410" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="ARR stack" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="2" vertex="1">
+                    <mxGeometry y="120" width="410" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Camera" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="2" vertex="1">
+                    <mxGeometry y="150" width="410" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="DMZ (open to public)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="2" vertex="1">
+                    <mxGeometry y="180" width="410" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Server local services" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="2" vertex="1">
+                    <mxGeometry y="210" width="410" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="firewall permision" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="-40" width="490" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="internet + block firewall + block inter subnet traffic" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="10" vertex="1">
+                    <mxGeometry y="30" width="490" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="internet only" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="10" vertex="1">
+                    <mxGeometry y="60" width="490" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="allow all" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="10" vertex="1">
+                    <mxGeometry y="90" width="490" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="internet + connection to nsfw lan for streaming" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="10" vertex="1">
+                    <mxGeometry y="120" width="490" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;span style=&quot;color: rgb(240, 240, 240); font-family: &amp;quot;Architects Daughter&amp;quot;; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(24, 20, 29); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;internet + ntp + NVR&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="10" vertex="1">
+                    <mxGeometry y="150" width="490" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="block everything + ARR apps" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="10" vertex="1">
+                    <mxGeometry y="180" width="490" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="based on services" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="10" vertex="1">
+                    <mxGeometry y="210" width="490" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="subnet" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="-40" width="160" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="10.26.1.0/24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="18" vertex="1">
+                    <mxGeometry y="30" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="192.168.172.0/24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="18" vertex="1">
+                    <mxGeometry y="60" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="10.13.37.0/24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="18" vertex="1">
+                    <mxGeometry y="90" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="10.73.31.0/24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="18" vertex="1">
+                    <mxGeometry y="120" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="10.4.20./24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="18" vertex="1">
+                    <mxGeometry y="150" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="10.6.6.0/24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="18" vertex="1">
+                    <mxGeometry y="180" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="10.9.9.0/24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="18" vertex="1">
+                    <mxGeometry y="210" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="28" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="28" target="34" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="290" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="30" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="680" y="523.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="cloudflare" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="413.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="32" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;div&gt;public ip&lt;/div&gt;&lt;div&gt;x.x.x.x&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="495.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="34" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Tailscale mesh cloud" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="36" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="FW: tailscale service" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="lan access" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="389" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="40" target="42" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="40" target="43" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;div&gt;FW pfsense&lt;/div&gt;&lt;div&gt;10.26.1.254&lt;/div&gt;&lt;div&gt;10.13.37.254&lt;/div&gt;&lt;div&gt;10.73.31.254&lt;/div&gt;&lt;div&gt;10.6.6.254&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="583.5" width="120" height="75.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="42" target="46" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;div&gt;Home lan&lt;/div&gt;&lt;div&gt;10.26.1.0&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="591" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;div&gt;server lan&lt;/div&gt;&lt;div&gt;10.13.37.0&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="689" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="46" target="47" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="46" target="48" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="SW" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="591" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;div&gt;lan pc&lt;/div&gt;&lt;div&gt;10.26.1.69&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="689" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="wifi ap" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="499" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="PIA vpn" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="780" y="591" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Vlan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="-40" width="160" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="66" vertex="1">
+                    <mxGeometry y="30" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="172" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="66" vertex="1">
+                    <mxGeometry y="60" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="1337" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="66" vertex="1">
+                    <mxGeometry y="90" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="7331" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="66" vertex="1">
+                    <mxGeometry y="120" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="420" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="66" vertex="1">
+                    <mxGeometry y="150" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="66" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="66" vertex="1">
+                    <mxGeometry y="180" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="99" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="66" vertex="1">
+                    <mxGeometry y="210" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-81" value="IP 10.13.37.x range" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="-320" y="240" width="310" height="540" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-87" value="1 - 9 Management/remote box" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="30" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-95" value="10 - 19 Hyperviser" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="60" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-94" value="20 - 29&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="90" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-93" value="30 - 39 webserver/webapp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="120" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-92" value="40 - 49 file server" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="150" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-91" value="50 - 59 database" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="180" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-90" value="60 - 69 Arr/torrent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="210" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-89" value="70 - 79" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="240" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-102" value="80 - 89 IPMI" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="270" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-101" value="90 - 99 Template" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="300" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-105" value="100 - 109 containers host" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="330" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-104" value="110 - 129 container app" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="360" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-107" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="390" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-106" value="180 - 189 Trainning" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="420" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-100" value="190 - 199 VMare" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="450" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-103" value="200 - 239 DHCP" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="480" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31faxAVZvxp3QdgcadNv-99" value="240 - 254 network" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" parent="31faxAVZvxp3QdgcadNv-81" vertex="1">
+                    <mxGeometry y="510" width="310" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
