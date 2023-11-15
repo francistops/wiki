@@ -6,3 +6,5 @@ Arr stack
 hugo website with cloudflare
 traffik reverse proxy
 fail2ban
+
+rate-mirrors for arch 
