@@ -1,5 +1,10 @@
 # AI useful Prompt
 
+## links
+https://learnprompting.org/docs/intro
+https://github.com/openai/openai-cookbook/tree/main
+https://platform.openai.com/docs/introduction
+
 ## Tutoring
 
 ### be my professor
