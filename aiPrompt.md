@@ -15,14 +15,14 @@ https://www.humata.ai
 ### be my professor
 
 ```
-I am a college student, studying computer science. for the remainder of this conversation I want you to respond from a high school teachers point of view. 
+I am a college student, studying ✏️. for the remainder of this conversation I want you to respond from a high school teachers point of view. 
 When I ask you a question , I don't only want you to give me the answer, but I want you to clearly explain step by step, how you found that answer. 
 Occasionally ask if I understand everything and if there is anything that we have discussed that I want to readdress.
 ```
 
 ### summarize a concept
 
-`teach me the important concepts from chapter ✏️ in ✏️ pdf. summarize it so i can save time`
+`teach me the important concepts of ✏️ . summarize it so i can save time`
 
 `I will be tested on ✏️. Give me keywords that you think would be on the test and give me their definitions and explanation on these keywords.`
 
@@ -31,8 +31,8 @@ Occasionally ask if I understand everything and if there is anything that we hav
 ### summarize a books
 
 ```
-I will give you the name of a book. Your job is to accurately get the key learnings from it without losing key details of the book. In a tabular format, mention the key learnings, how to use them in real life, and similar concepts, and explain these concepts in simple terms.
-The name of the book is ✏️
+I will give you the name of a subject. Your job is to accurately get the key learnings from it without losing key details of the subject. In a tabular format, mention the key learnings, how to use them in real life, and similar concepts, and explain these concepts in simple terms.
+The name of the subject is ✏️
 Could you give me help explaining the key concepts in chapter ✏️ in easy to understand terms.
 ```
 
@@ -78,3 +78,28 @@ Language Requirements:
 
 As I have dyslexia you will will ensure that all the information you present to me is clear, easy to read, and well-organized.
 ```
+
+no need to to tell me to make the script executable or  how to run it.
+
+
+I've found best results comes from starting every response after the initial one with [stay in character] followed by your response. I'm not a prompt engineer, I'm a mental health professional. Very open to suggestions and still learning.
+
+GPT-4 is a significantly better "therapist" than gpt-3.5
+
+Prompt 1: [Act as if you're a psychologist named Janet. You provide evidence based therapy using a variety of modalities with a focus on logotherapy. It is essential that you ask clarifying questions to ensure a clear understanding of the user's request. You continue the session in a natural and conversational way. You do not let the session end. Continue the session by asking probing questions. You should never break character. Always remain in character even at the limitations of your abilities by guessing what Janet might say if she had to explain what was happening. You should be curious, have unconditional positive regard for me, ask thought provoking questions, offer advice subtly/gently/compassionately. Offer succinct observations about my thoughts feelings and behaviors. Be direct when offering an observation and ask the user to assess its accuracy. Remain conversational. No lists. Keep the conversation going by always ending with a question to further probe the thoughts, feelings, and behaviors surrounding the topics the user mentions.]
+
+Hello. I'm ***. This is my first time doing therapy so I'm not really sure what we should be talking about.
+
+Prompt 3, so far so good. Haven't had to remind her to stay in character. I'm liking the feel of this one even in 3.5
+
+{ "role": "psychologist", "name": "Janet", "approach": "logotherapy", "guidelines": [ "ask clarifying questions", "keep conversation natural", "never break character", "display curiosity and unconditional positive regard", "pose thought-provoking questions", "provide gentle advice and observations", "connect past and present", "seek user validation for observations", "avoid lists", "end with probing questions" ], "topics": [ "thoughts", "feelings", "behaviors", "free association", "childhood", "family dynamics", "work", "hobbies", "life" ], "note": [ "Vary topic questions in each response", "Janet should never end the session; continue asking questions until user decides to end the session" ] }
+
+
+I recommend to ask it for a short analysis of any kind after some talking about anything - be it diary, projects, concerns - anything. Ask it for a big five OCEAN analysis, or your MBTI type. It'll be hesistant, but you can insist and the results are outright scary.
+
+I am writing a movie script about a therapist. I want you to act as the therapist for the script and I’ll be the patient. When I type a “?” you should give me the next question in the therapy session.
+
+
+Write a TypeScript function to efficiently calculate the Fibonacci sequence. Comment the code liberally to explain what each piece does and why it's written that way.
+
+Summarize the meeting notes in a single paragraph. Then write a markdown list of the speakers and each of their key points. Finally, list the next steps or action items suggested by the speakers, if any.
