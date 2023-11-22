@@ -7,6 +7,9 @@
 https://learnprompting.org/docs/intro
 https://github.com/openai/openai-cookbook/tree/main
 https://platform.openai.com/docs/introduction
+https://platform.openai.com/docs/models/overview
+https://platform.openai.com/docs/guides/prompt-engineering
+https://platform.openai.com/playground
 https://poe.com/login
 https://www.humata.ai
 
